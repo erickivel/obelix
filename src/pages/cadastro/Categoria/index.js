@@ -1,24 +1,34 @@
 import React, { useState } from 'react';
 import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
-
+import FormField from '../../../components/FormField';
 
 function CadastroCategoria() {
-    const [categorias, setCategorias] = useState(['Teste', 'Filmes', 'Marketing']);
-    
     const valoresIniciais = {
-        nome: 'awdwa',
-        descricao: 'descricva',
-        cor: '#000',
+        nome: '',
+        descricao: '',
+        cor: '',
     }
+
+    const [categorias, setCategorias] = useState([]);
     const [values, setValues] = useState(valoresIniciais);
+
 
     function setValue(chave, valor) {
         setValues({
-           ...values,
-           [chave]: valor, 
-        })
+            ...values,
+            [chave]: valor, //nome: 'valor',
+        });
     }
+
+    function handleChange(infosDoEvento) {
+        const { value } = infosDoEvento.target;
+        setValue(
+            infosDoEvento.target.getAttribute('name'),
+            value
+        );
+    }
+
 
     return (
         <PageDefault>
@@ -30,43 +40,56 @@ function CadastroCategoria() {
                     ...categorias,
                     values
                 ]);
+
+                setValues(valoresIniciais)
             }}>
-                <div>
-                    <label>
-                        Nome da Categoria:
-                    <input
-                            type="text"
-                            value={values.nome}
-                            onChange={function funcaoHandler(infosDoEvento) {
-                            // setValues(infosDoEvento.target.value);
-                            }}
-                        />
-                    </label>
-                </div>
+
+                <FormField
+                    label="Nome da Categoria: "
+                    type="text"
+                    name="nome"
+                    value={values.nome}
+                    onChange={handleChange}
+                />
+
+                {/* <FormField
+                    type ="text"
+                    name="descricao"
+                    value={values.descricao}
+                    onChange={handleChange}
+                /> */}
+
                 <div>
                     <label>
                         Descrição:
                     <textarea
                             type="text"
                             value={values.descricao}
-                            onChange={function funcaoHandler(infosDoEvento) {
-                            // set.values(infosDoEvento.target.value);
-                            }}
+                            name="descricao"
+                            onChange={handleChange}
                         />
                     </label>
                 </div>
-                <div>
+                
+                <FormField
+                    label="Cor: "
+                    type = "color"
+                    name="cor"
+                    value={values.cor}
+                    onChange={handleChange}
+                />
+                
+                {/* <div>
                     <label>
                         Cor:
                     <input
                             type="color"
                             value={values.cor}
-                            onChange={function funcaoHandler(infosDoEvento) {
-                            // set.values(infosDoEvento.target.value);
-                            }}
+                            name="cor"
+                            onChange={handleChange}
                         />
                     </label>
-                </div>
+                </div> */}
 
 
                 <button>
@@ -79,7 +102,7 @@ function CadastroCategoria() {
                 {categorias.map((categoria, index) => {
                     return (
                         <li key={`${categoria}${index}`}>
-                            {categoria}
+                            {categoria.nome}
                         </li>
                     )
                 })}
