@@ -2,14 +2,14 @@
     "categorias": [
         {
             "id": 1,
-            "nome": "First categoria",
-            "descricao": "Um categoria braba",
+            "nome": "Primeira categoria",
+            "descricao": "Uma categoria braba",
             "cor": "#6bd1ff"
         },
         {
             "id": 2,
-            "nome": "2 categoria",
-            "descricao": "2 categoria braba",
+            "nome": "Segundo categoria",
+            "descricao": "Segunda categoria braba",
             "cor": "#6bd1ff"
         }
     ]

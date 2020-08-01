@@ -31,8 +31,9 @@ function CadastroCategoria() {
 
 
   useEffect(() => {
-    console.log('nawodjefbesf');
-    const URL_TOP = 'http://localhost:8080/categorias';
+    const URL_TOP = window.location.hostname.includes('localhost') 
+      ? 'http://localhost:8080/categorias'
+      : 'https://obelix-kivel.herokuapp.com/categorias';
     fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
