@@ -2,15 +2,71 @@
     "categorias": [
         {
             "id": 1,
-            "nome": "Primeira categoria",
-            "descricao": "Uma categoria braba",
+            "titulo": "Educação Financeira",
             "cor": "#6bd1ff"
         },
         {
             "id": 2,
-            "nome": "Segundo categoria",
-            "descricao": "Segunda categoria braba",
+            "titulo": "Empreendedorismo",
             "cor": "#6bd1ff"
+        },
+        {
+            "id": 3,
+            "titulo": "Mindset",
+            "cor": "#6bd1ff"
+        },
+        {
+            "id": 4,
+            "titulo": "Marketing DigitaL",
+            "cor": "#6bd1ff"
+        },
+        {
+            "id": 5,
+            "titulo": "Saúde",
+            "cor": "#6bd1ff"
+        },
+        {
+            "id": 6,
+            "titulo": "Programação",
+            "cor": "#6bd1ff"
+        }
+    ],
+    "videos": [
+        {
+            "id": 1,
+            "categoriaId": 1,
+            "titulo": "ITAUSA (ITSA4) ESTÁ BARATA? ",
+            "url": "https://www.youtube.com/watch?v=GyEVGyCa5xk"
+        },
+        {
+            "id": 2,
+            "categoriaId": 2,
+            "titulo": "NÃO COMECE UM NEGÓCIO SEM VER ESTE VÍDEO",
+            "url": "https://www.youtube.com/watch?v=KQUkrvP5ToE"
+        },
+        {
+            "id": 3,
+            "categoriaId": 3,
+            "titulo": "O que é PNL | Programe Sua Mente para o Sucesso | Pablo MARÇAL",
+            "url": "https://www.youtube.com/watch?v=4aCKbQU3lyU"
+        },
+        {
+            "id": 4,
+            "categoriaId": 4,
+            "titulo": "FIM DA FÓRMULA DE LANÇAMENTO? | ERICO ROCHA",
+            "url": "https://www.youtube.com/watch?v=gtOeKyq43iU"
+        },
+        {
+            "id": 5,
+            "categoriaId": 5,
+            "titulo": "TREINE O CORPO INTEIRO EM CASA SEM EQUIPAMENTOS!",
+            "url": "https://www.youtube.com/watch?v=lSqY5nhrtGU"
+        },
+        {
+            "id": 6,
+            "categoriaId": 6,
+            "titulo": "Conheça o canal da Alura!",
+            "url": "https://www.youtube.com/watch?v=k7IPr-rhrPE"
         }
     ]
 }
