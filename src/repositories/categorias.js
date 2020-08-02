@@ -10,4 +10,4 @@ function getAllWithVideos() {
         });
 }
 
-export default {getAllWithVideos};
+export default {getAllWithVideos}; 
