@@ -5,7 +5,6 @@ import FormField from '../../../components/FormField';
 import Button from '../../../components/Menu/components/Button';
 import useForm from '../../../hooks/useForm';
 
-
 function CadastroCategoria() {
   const valoresIniciais = {
     titulo: '',
@@ -27,24 +26,6 @@ function CadastroCategoria() {
           ...resposta,
         ]);
       });
-
-    // setTimeout(() => {
-    //   setCategorias([
-    //     ...categorias,
-    //     {
-    //       "id": 1,
-    //       "nome": "First categoria",
-    //       "descricao": "Um categoria braba",
-    //       "cor": "#6bd1ff"
-    //     },
-    //     {
-    //       "id": 2,
-    //       "nome": "2 categoria",
-    //       "descricao": "2 categoria braba",
-    //       "cor": "#6bd1ff"
-    //     },
-    //   ]);
-    // }, 4 * 1000);
   }, []);
 
   return (
@@ -98,7 +79,8 @@ function CadastroCategoria() {
       {categorias.length === 0 && (
         <div>
           Loading...
-        </div>)}
+        </div>
+      )}
 
       <ul>
         {categorias.map((categoria) => (
