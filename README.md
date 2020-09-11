@@ -5,6 +5,13 @@
 <h1 align="center">
   OBELIX
 </h1>
+
+<p align="center">
+  <a href="#question-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#gear-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-getting-started">Getting Started</a>
+</p>
+
 <p align="center">Netflix clone focused on personal development.</p>
 
 </br>
@@ -12,15 +19,15 @@
 
 ---
 
-## About
+## :question: About
 This app was developed for the study, during an immersion ("Imersão React da Alura").
 
-## Features
-- ⚛️ **React Js** —> A JavaScript library for building user interfaces<br/>
-- ⚙️ **Node Js** —> A web framework for Node Js<br/>
-- 📈 **JSON Server** —> Fake Online REST server for teams<br/>
+## :gear: Features
+⚛️ **React Js** —> A JavaScript library for building user interfaces<br/>
+⚙️ **Node Js** —> A web framework for Node Js<br/>
+📈 **JSON Server** —> Fake Online REST server for teams<br/>
 
-## Getting Started
+## :rocket: Getting Started
  
 1. Clone this repo: `git clone https://github.com/erickivel/obelix.git`
 2. Move to the directory: `cd obelix`
