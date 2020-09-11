@@ -23,9 +23,9 @@
 This app was developed for the study, during an immersion ("Imersão React da Alura").
 
 ## :gear: Features
-⚛️ **React Js** —> A JavaScript library for building user interfaces<br/>
-⚙️ **Node Js** —> A web framework for Node Js<br/>
-📈 **JSON Server** —> Fake Online REST server for teams<br/>
+⚛️ **React Js** —> A JavaScript library for building user interfaces;<br/>
+⚙️ **Node Js** —> A platform for building network applications;<br/>
+📈 **JSON Server** —> Fake Online REST server for teams.<br/>
 
 ## :rocket: Getting Started
  
