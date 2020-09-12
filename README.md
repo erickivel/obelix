@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://fontmeme.com/permalink/200810/62a460309ecee9c527066225df2e682e.png" width="250" /> </br></br>
+    <img src="https://fontmeme.com/permalink/200810/62a460309ecee9c527066225df2e682e.png" alt="logo-Obelix" width="250" /> </br></br>
     Node JS | ReactJS
 </h1>
 
@@ -13,7 +13,7 @@
 <p align="center">Netflix clone focused on personal development.</p>
 
 </br>
-<img src= "./assets/obelix.gif"/>
+<img src= "./assets/obelix.gif" alt="Obelix-site" />
 
 ---
 
