@@ -9,7 +9,8 @@
 <p align="center">
   <a href="#question-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#gear-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-getting-started">Getting Started</a>
+  <a href="#rocket-getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
 </p>
 
 <p align="center">Netflix clone focused on personal development.</p>
@@ -33,3 +34,7 @@ This app was developed for the study, during an immersion ("Imersão React da Al
 2. Move to the directory: `cd obelix`
 3. Run `yarn` to install dependencies
 4. Run `yarn dev` to start the server and web application
+
+## :memo: License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE.md) file for details.
