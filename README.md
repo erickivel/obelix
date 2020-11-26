@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="#question-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#gear-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#gear-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
@@ -20,7 +20,7 @@
 ## :question: About
 This app was developed for the study, during an immersion ("Imersão React da Alura").
 
-## :gear: Features
+## :gear: Technologies
 ⚛️ **React Js** —> A JavaScript library for building user interfaces;<br/>
 ⚙️ **Node Js** —> A platform for building network applications;<br/>
 📈 **JSON Server** —> Fake Online REST server for teams.<br/>
